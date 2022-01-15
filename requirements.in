@@ -1,0 +1,8 @@
+# Project maintenance
+pip-tools
+black
+isort
+
+# Project dependencies
+django~=3.2
+
