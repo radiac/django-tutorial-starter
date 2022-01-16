@@ -32,15 +32,18 @@ To get this project running::
 In this project
 ===============
 
-The project follows the tutorial, with the site ``mysite`` with the app ``polls``, with
-the following changes:
+The project aims to follow the official tutorial as closely as practical, while
+tweaking things enough to be useful.
+
+There are the following changes:
 
 * Project requirements are defined in ``requirements.in`` and pinned to
   ``requirements.txt`` using `pip-tools <https://pypi.org/project/pip-tools/>`_.
 * All ``polls`` templates have been wrapped in ``{% block content %}``, and extend
-  ``mysite/templates/base.html``.
+  ``mysite/templates/base.html``, which includes a placeholder static ``site.css`` and
+  ``site.js``.
 * No background image in ``polls/static/polls/style.css``.
-* Admin templates have not been overriden as instructed in part 7.
+* No admin template override (no file at ``templates/admin/base_site.html``).
 * Root url ``/`` redirects to ``/polls/`` for convenience.
 * Minor changes may be introduced by ``black`` and ``isort``.
 
