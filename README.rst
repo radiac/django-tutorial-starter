@@ -41,7 +41,7 @@ the following changes:
   ``mysite/templates/base.html``.
 * No background image in ``polls/static/polls/style.css``.
 * Admin templates have not been overriden as instructed in part 7.
-* Root url ``/`` redirects to ``polls/`` for convenience.
+* Root url ``/`` redirects to ``/polls/`` for convenience.
 * Minor changes may be introduced by ``black`` and ``isort``.
 
 We will aim to keep this repository up-to-date with the latest LTS release of Django.
